@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Lookif.Layers.Service" Version="1.0.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ExpenseManager.Data\ExpenseManager.Data.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="ExcelHandler">
+      <HintPath>Dll\ExcelHandler.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
